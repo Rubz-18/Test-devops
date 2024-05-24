@@ -32,4 +32,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: rubz-18/python-ci:latest
+          tags: Rubz-18/Test-devops:latest
