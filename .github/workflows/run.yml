@@ -25,4 +25,4 @@ jobs:
           pip install -r ./requirements.txt
 
       - name: Start Backend Server
-        run: uvicorn app.main:app --reload --port=8001
+        run: uvicorn app.main:app --reload &
